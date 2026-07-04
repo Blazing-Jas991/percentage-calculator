@@ -13,7 +13,7 @@ body {
 
 .container {
   background-color: white;
-  width: clamp(27rem, 90vw, 40rem);
+  width: clamp(20rem, 90vw, 40rem);
   height: 24rem;
   display: flex;
   flex-direction: column;
@@ -46,7 +46,7 @@ hr {
 }
 
 .input-text {
-  font-size: clamp(0.9rem, 2.5vw, 1.2rem);
+  font-size: clamp(1rem, 2.5vw, 1.2rem);
   font-weight: bold;
   margin-top: 1rem;
 }
