@@ -7,6 +7,7 @@ function getPercentage() {
   let percentNum = Number(percentInput.value);
   let calNumber = Number(numberInput.value);
   if (isNaN(percentNum) || isNaN(calNumber)) {
+    resultOutput.style.display = "none";
     return;
   }
   const calculatedPercent = Math.round(percentNum * (calNumber / 100));
