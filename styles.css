@@ -13,7 +13,7 @@ body {
 
 .container {
   background-color: white;
-  width: clamp(20rem, 90vw, 40rem);
+  width: clamp(23rem, 90vw, 40rem);
   height: 24rem;
   display: flex;
   flex-direction: column;
@@ -63,13 +63,13 @@ button {
 }
 
 span {
-  border-bottom: 2px solid green;
+  border-bottom: 1px solid black;
 }
 
 input {
   border: none;
   outline: none;
-  width: clamp(2rem, 15vw, 4rem);
+  width: clamp(3rem, 15vw, 5rem);
   text-align: center;
   font-size: clamp(0.8rem, 2.5vw, 1rem);
   font-weight: bold;
